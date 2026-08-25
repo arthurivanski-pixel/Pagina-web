@@ -28,3 +28,9 @@ function mudaTema() {
         corpoPagina.classList.add("tema-escuro");
     }
 }
+
+const btnVoltarTopo = document.querySelector('.btn-voltar-topo');
+
+btnVoltarTopo.addEventListener('click', function() {
+    window.scrollTo(0, 0);
+});
