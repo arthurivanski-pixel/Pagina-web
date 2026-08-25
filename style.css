@@ -19,7 +19,7 @@
 }
 
 .tema-escuro a {
-    color: var(--cor-contraste);
+    color: var(--cor-texto);
 }
 
 .tema-escuro h2 {
